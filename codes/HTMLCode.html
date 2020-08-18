@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Code</title>
+	<link rel="shortcut icon" type="image.png" href="img/favicon.png">
+</head>
+
+<body>
+
+<xmp>	
+
+<head>
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<meta charset="UTF-8">
+	<title>Abdulkreem Kh - Resume</title>
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Averia+Gruesa+Libre|Baloo+Chettan|Baloo+Thambi|Caveat|Cedarville+Cursive|Cinzel+Decorative|Clicker+Script|Convergence|Cormorant+Infant|Dekko|Economica|Encode+Sans+Semi+Expanded|Expletus+Sans|Gafata|Graduate|Grand+Hotel|Heebo|Julius+Sans+One|Kaushan+Script|Kite+One|La+Belle+Aurore|Lato|Leckerli+One|Major+Mono+Display|Mandali|Marck+Script|Montserrat|Nanum+Pen+Script|Nova+Mono|Nunito|PT+Sans|Paprika|Pavanam|Quando|Satisfy|Skranji|Thasadith|Titillium+Web|VT323|Vibur" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="shortcut icon" type="image.png" href="img/favicon.png">
+</head>
+<body>
+
+	<div id="back"></div>
+
+	<div class="header">
+	<div id="logo"><a href="#a" onclick="hom()"><img src="img/logo.png" width="500px"></a></div>
+	<script type="text/javascript">
+				function hom(){
+				document.getElementById('allcontent').classList.remove('am','projects','skills','resume','contact')
+				document.getElementById('back').classList.remove('yellow','red','black','green','orange')
+				document.getElementById('back').classList.add('blue')
+				document.getElementById('cont').classList.remove('nav1')
+				document.getElementById('am').classList.remove('nav1')
+				document.getElementById('pro').classList.remove('nav1')
+				document.getElementById('res').classList.remove('nav1')
+				document.getElementById('ski').classList.remove('nav1')
+				}	
+	</script>
+
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<div id="social">
+		<ul> 	
+			<a href="https:/www.linkedin.com/in/abdulkreem-alkholy-352a9a162" target="_blank"><li><img src="img/in.png" width="23px"></li></a>
+			<a href="https://join.skype.com/fp9clhdznj60" target="_blank"><li><img src="img/skype.png" width="23px"></li></a>
+			<a href="https://twitter.com/AbdulkreemKh" target="_blank"><li><img src="img/twitter.png" width="23px"></li></a>	
+			<a href="https://instagram.com/savakslava?utm_source=ig_profile_share&igshid=19m5j7vergwjf" target="_blank"><li><img src="img/instagram.png" width="23px"></li></a>
+			<a href="https://www.youtube.com/channel/UCC96m3of2fvI2CATG1r5-xA" target="_blank"><li><img src="img/youtube.png" width="23px"></li></a>			
+		</ul>
+	</div>
+	</div>
+
+	<div class="extra"></div>
+
+	<div id="navbar">
+		<ul>
+			<a href="#a" onclick="am()"><li id="am">ABOUT ME</li></a>
+			<script type="text/javascript">
+				function am(){
+				document.getElementById('allcontent').classList.remove('hom','projects','skills','resume','contact')
+				document.getElementById('allcontent').classList.add('am')
+				document.getElementById('back').classList.remove('yellow','red','black','green','blue')
+				document.getElementById('back').classList.add('orange')
+				document.getElementById('am').classList.add('nav1')
+				document.getElementById('ski').classList.remove('nav1')
+				document.getElementById('pro').classList.remove('nav1')
+				document.getElementById('res').classList.remove('nav1')
+				document.getElementById('cont').classList.remove('nav1')
+				}	
+			</script>
+			<a href="#a" onclick="projects()"><li id="pro">PROJECTS</li></a>
+			<script type="text/javascript">
+				function projects(){
+				document.getElementById('allcontent').classList.remove('hom','am','skills','resume','contact')
+				document.getElementById('allcontent').classList.add('projects')
+				document.getElementById('back').classList.remove('yellow','red','black','orange','blue')
+				document.getElementById('back').classList.add('green')
+				document.getElementById('pro').classList.add('nav1')
+				document.getElementById('am').classList.remove('nav1')
+				document.getElementById('ski').classList.remove('nav1')
+				document.getElementById('res').classList.remove('nav1')
+				document.getElementById('cont').classList.remove('nav1')
+				}	
+			</script>
+			<a href="#a" onclick="skills()"><li id="ski">SKILLS</li></a>	
+			<script type="text/javascript">
+				function skills(){
+				document.getElementById('allcontent').classList.remove('hom','projects','am','resume','contact')
+				document.getElementById('allcontent').classList.add('skills')
+				document.getElementById('back').classList.remove('green','red','black','orange','blue')
+				document.getElementById('back').classList.add('yellow')
+				document.getElementById('ski').classList.add('nav1')
+				document.getElementById('am').classList.remove('nav1')
+				document.getElementById('pro').classList.remove('nav1')
+				document.getElementById('res').classList.remove('nav1')
+				document.getElementById('cont').classList.remove('nav1')
+				}	
+			</script>			
+			<a href="#a" onclick="resume()"><li id="res">RESUME</li></a>
+			<script type="text/javascript">
+				function resume(){
+				document.getElementById('allcontent').classList.remove('hom','projects','skills','am','contact')
+				document.getElementById('allcontent').classList.add('resume')
+				document.getElementById('back').classList.remove('yellow','red','green','orange','blue')
+				document.getElementById('back').classList.add('black')
+				document.getElementById('res').classList.add('nav1')
+				document.getElementById('am').classList.remove('nav1')
+				document.getElementById('pro').classList.remove('nav1')
+				document.getElementById('ski').classList.remove('nav1')
+				document.getElementById('cont').classList.remove('nav1')
+				}	
+			</script>
+			<a href="#a" onclick="contact()"><li id="cont">CONTACT</li></a>
+			<script type="text/javascript">
+				function contact(){
+				document.getElementById('allcontent').classList.remove('hom','projects','skills','resume','am')
+				document.getElementById('allcontent').classList.add('contact')
+				document.getElementById('back').classList.remove('yellow','green','black','orange','blue')
+				document.getElementById('back').classList.add('red')
+				document.getElementById('cont').classList.add('nav1')
+				document.getElementById('am').classList.remove('nav1')
+				document.getElementById('pro').classList.remove('nav1')
+				document.getElementById('res').classList.remove('nav1')
+				document.getElementById('ski').classList.remove('nav1')
+				}	
+			</script>
+		</ul>
+	</div>
+
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<div id="allcontent">
+
+	<div class="home">
+		<div class="pic">
+		<div class="btn">
+		<li><a href="files/Abdulkreem_Kh_Resume.pdf" targer="_blank" download="Abdulkreem_Kh_Resume"><img src="img/downloadresume.png" width="15px"> DOWNLOAD RESUME</a></li>
+		<li><a href="#a" onclick="Hire()">&nbsp;<img src="img/hireme.png" width="15px"> HIRE ME &nbsp;</a></li>
+		<script type="text/javascript">
+				function Hire(){
+				document.getElementById('allcontent').classList.remove('hom','projects','skills','resume','am')
+				document.getElementById('allcontent').classList.add('contact')
+				document.getElementById('back').classList.remove('yellow','green','black','orange','blue')
+				document.getElementById('back').classList.add('red')
+				document.getElementById('cont').classList.add('nav1')
+				document.getElementById('am').classList.remove('nav1')
+				document.getElementById('pro').classList.remove('nav1')
+				document.getElementById('res').classList.remove('nav1')
+				document.getElementById('ski').classList.remove('nav1')
+				}	
+			</script>
+		</div>
+		</div>
+	</div>
+
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<div class="page">
+	
+	<div class="pagebox">
+		
+		<div class="page box66">
+			<h1>ABOUT ME<b style="color:#524646">.</b></h1>
+			<p>Fresh graduate holding a bachelor degree in Management Information System, I taught  myself to program and I become capable of programming in various languages such as Visual Basic, Java, Lotus Script, JavaScript and many others,  I built this website using HTML, CSS and JavaScript without the use of any tools as a journey to learn web design and web development.
+			<br><br>I will still continue to develop my abilities and skills and I will always be busy learning.</p>
+			
+		</div>
+
+		<div class="box33">
+			<h1>BASIC INFORMATION<b style="color:#EB8258">.</b></h1>
+			<h2>Full Name:</h2>
+			<h3>Abdulkreem Abdulhady Alkholy</h3>
+			<h2>Date of Birth:</h2>
+			<h3>October 10, 1992</h3>
+			<h2>Degree:</h2>
+			<h3>BSc in MIS from YUC</h3>
+			<h2>Address:</h2>
+			<h3>Al Wahah - Jeddah, Mecca 65578, Saudi Arabia</h3>
+			<h2>Nationality:</h2>
+			<h3>Saudi Arabia</h3>
+		</div>
+
+	</div>
+
+	</div>
+
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<div class="page">
+		<div class="projects">
+
+			<p style="font-size: 130px; width: 100%; text-align: center; margin-bottom: 110px; padding:0; transform: translateY(20px); font-family: 'Julius Sans One', sans-serif; color: #1e5463">P R O J E C T S</p>
+
+			<div id="type1">
+
+				<div class="head" onclick="expand1()"><b>M Y &nbsp; P R O J E C T S &nbsp; &nbsp; </b><a href="#a"><img id="img1" src="img/expand.png"  width="10px"></a></div>
+
+				<div id="content1">
+					
+					<div class="grid">
+						<div>
+							<h1>Invoice Generator</h1>
+							<p>Using <b style="color: #572e94;">Visual Basic</b> I created a software that connects to <b style="color: #ff5722;">Microsoft Access</b> Databases and manipulate the data through an interface. The software uses <b style="color: #ffc107;">MySQL</b> to search, delete or modify the records inside the Access file.</p>
+							<img id="img1" src="img/invoice.png"  width="200px">
+						</div>
+						<div style="padding:13px 0;">
+							<a href="files/IGDemo.zip" targer="_blank" download="InvoiceGeneratorDemo" style="background-color: #ff5722;">Download .exe</a> &nbsp; 
+							<a href="#a" style="background-color: #572e94;">View code</a>
+						</div>
+					</div>
+
+					<div class="grid">
+						<div>
+							<h1>Date Convertor</h1>
+							<p><b style="color: #572e94;">Visual Basic</b> software that loads a <b style="color: #4caf50;">Microsoft Excel</b> sheet and change the date data inside the sheet then export it again in a new <b style="color: #4caf50;">Microsoft Excel</b> file.</p>
+							<br><br><img id="img1" src="img/datechanger.png"  width="200px">
+						</div>
+						<div style="padding:13px 0;">
+							<span style="color:red;">*Confidential Data</span>&nbsp; 
+							<a href="#a" style="background-color: #572e94;">View code</a>
+						</div>
+					</div>
+
+					<div class="grid">
+						<div>
+							<h1>My Resume Website</h1>
+							<p>A full codded website made by me using <b style="color: #ff5722;">HTML</b>, <b style="color: #2196f3;">CSS</b> and <b style="color: #ffc107;">JavaScript</b> without the use of any templets or tools.<a href="https:/www.abdulkreem.com" target="_blank" style="color:blue;"> (Abdulkreem.com)</a></p>
+							<br><br><img id="img1" src="img/resumewebsite.png"  width="200px">
+						</div>
+						<div style="padding:13px 0;">
+							<a href="#a" style="background-color: #ff5722;">View HTML code</a> &nbsp; 
+							<a href="#a" style="background-color: #2196f3;">View CSS code</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="type2">
+				
+				<div class="head" onclick="expand2()"><b>M Y &nbsp; V I D E O &nbsp;E D I T I N G &nbsp; &nbsp; </b><a href="#a"><img id="img2" src="img/expand.png"  width="10px"></a></div>
+				
+				<div id="content2">
+
+					<div class="grid">
+						<div><h1>Ashabaan 2018</h1></div>
+						<div>
+							<iframe width="440" height="246" src="https://www.youtube.com/embed/DxyfYn6kPYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div>
+							<p>In this video I used <b style="color: #263364;">Adobe Lightroom</b> to assemble still photos to create a time lapse videos then I used <b style="color: #089df6;">Sony Vegas</b> to assemble all the shots to create this ad. (shots were taken by Majed Alkholy)</p><img id="img1" src="img/ashab.png"  width="95px">
+						</div>
+						<div style="padding:13px 0;">
+							<a href="https://www.instagram.com/majed_alkhouly/?utm_source=ig_profile_share&igshid=1epsfcoafbh9k" target="_blank" style="color:#333333"><img style="transform:scale(1.5) translateY(0px)" id="img1" src="img/instagram.png"  width="13px"> &nbsp; Majed's Instagram page</a>   
+							<a href="https://www.youtube.com/channel/UCC96m3of2fvI2CATG1r5-xA" target="_blank" style="background-color: #ff0000;"><img style="transform:scale(1.5) translateY(0px); filter:invert(1)" id="img1" src="img/youtube.png"  width="13px">&nbsp; Visit my YouTube channel</a>
+						</div>
+					</div>
+
+					<div class="grid">
+						<div><h1>TESLM ad</h1></div>
+						<div>
+							<iframe width="440" height="246" src="https://www.youtube.com/embed/kJld64rzTZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+							<div>
+							<p>An ad made for an app called TESLM. using <b style="color: #263364;">Adobe photoshop</b> I desgined the photos in the videos then with <b style="color: #089df6;">Sony Vegas</b> I put all the pictures with a prerecorded video to create this ad. </p><img id="img1" src="img/TESLM.png"  width="95px">
+						</div>
+						<div style="padding:13px 0;">
+							<a href="https://www.youtube.com/channel/UCCjPtYue5XUGqXVUuhpDwEw" target="_blank" style="color:#333333"><img style="transform:scale(1.5) translateY(0px)" id="img1" src="img/youtube.png"  width="13px"> &nbsp; TESLM's YouTube channel</a> 
+							<a href="https://www.youtube.com/channel/UCC96m3of2fvI2CATG1r5-xA" target="_blank" style="background-color: #ff0000;"><img style="transform:scale(1.5) translateY(0px); filter:invert(1)" id="img1" src="img/youtube.png"  width="13px">&nbsp; Visit my YouTube channel</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<script type="text/javascript">
+				function expand1(){
+				document.getElementById('type1').classList.toggle('expand')
+				document.getElementById('content1').classList.toggle('expand')
+				document.getElementById('img1').classList.toggle('flip')
+				document.getElementById('allcontent').classList.toggle('expa1')
+				};
+		  		
+		  		function expand2(){
+				document.getElementById('type2').classList.toggle('expand')
+				document.getElementById('content2').classList.toggle('expand')
+				document.getElementById('img2').classList.toggle('flip')
+				document.getElementById('allcontent').classList.toggle('expa2')
+				};
+
+				function expand3(){
+				document.getElementById('type3').classList.toggle('expand')
+				document.getElementById('content3').classList.toggle('expand')
+				document.getElementById('img3').classList.toggle('flip')
+				document.getElementById('allcontent').classList.toggle('expa3')
+				};
+
+	</script>
+
+		</div>
+	</div>
+
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<div class="page">
+		<div class="skills">
+			
+			<p style="font-size: 120px; width: 100%; text-align: center; margin: 0;margin-top: 155PX;padding:0;transform:translateY(90px); font-family: 'Julius Sans One', sans-serif; color: #463248;">S K I L L S</p>
+
+			<li>
+				<h1>LANGUAGES</h1>
+				<div class="container">
+					<h2>LANGUAGES</h2>
+					<div class="h1img"><img src="img/langs.png" width="100%"></div>
+					<div><table class="s1">
+						<tr>
+							<td><img src="img/sa.png" width="15px" style="transform: translateY(3px);">&nbsp; Arabic</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s2">
+						<tr>
+							<td><img src="img/eng.png" width="15px" style="transform: translateY(3px);">&nbsp; English</td>
+							<td>&nbsp;<img src="img/4stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div class="imgf"><img src="img/white.png" width="100%"></div>
+					<div class="imgb"><img src="img/blue.png" width="100%"></div>
+				</div>
+			</li>
+				<li>
+				<h1>PROGRAMMING</h1>
+				<div class="container">
+					<h2>PROGRAMMING</h2>
+					<div class="h1img"><img src="img/progs.png" width="100%"></div>
+					<div><table class="s1">
+						<tr>
+							<td><img src="img/html.png" width="15px" style="transform: translateY(3px);">&nbsp; HTML</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s2">
+						<tr>
+							<td><img src="img/css.png" width="15px" style="transform: translateY(3px);">&nbsp; CSS</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s3">
+						<tr>
+							<td><img src="img/js.png" width="15px" style="transform: translateY(3px);">&nbsp; JavaScript</td>
+							<td>&nbsp;<img src="img/4stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s4">
+						<tr>
+							<td><img src="img/java.png" width="15px" style="transform: translateY(3px);">&nbsp; Java</td>
+							<td>&nbsp;<img src="img/3stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s5">
+						<tr>
+							<td><img src="img/vb.png" width="15px" style="transform: translateY(3px);">&nbsp; VisualBasic</td>
+							<td>&nbsp;<img src="img/4stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s6">
+						<tr>
+							<td><img src="img/mysql.png" width="15px" style="transform: translateY(3px);">&nbsp; MySQL</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s7">
+						<tr>
+							<td><img src="img/ls.png" width="15px" style="transform: translateY(3px);">&nbsp; LotusScript</td>
+							<td>&nbsp;<img src="img/3stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s8">
+						<tr>
+							<td><img src="img/formula.png" width="15px" style="transform: translateY(3px);">&nbsp; Formula</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div class="imgf"><img src="img/white.png" width="100%"></div>
+					<div class="imgb"><img src="img/blue2.png" width="100%"></div>
+				</div>
+			</li>
+				<li>
+				<h1>SOFTWARE</h1>
+				<div class="container">
+					<h2>SOFTWARE</h2>
+					<div class="h1img"><img src="img/softs.png" width="100%"></div>
+						<div><table class="s1">
+						<tr>
+							<td><img src="img/sap.png" width="15px" style="transform: translateY(3px);">&nbsp; SAP Client</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s2">
+						<tr>
+							<td><img src="img/lotusnotes.jpg" width="15px" style="transform: translateY(3px);">&nbsp; LotusNotes</td>
+							<td>&nbsp;<img src="img/4stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s3">
+						<tr>
+							<td><img src="img/excel.png" width="15px" style="transform: translateY(3px);">&nbsp; M Excel</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s4">
+						<tr>
+							<td><img src="img/access.png" width="15px" style="transform: translateY(3px);">&nbsp; M Access</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s5">
+						<tr>
+							<td><img src="img/photoshop.png" width="15px" style="transform: translateY(3px);">&nbsp; Adobe Ps</td>
+							<td>&nbsp;<img src="img/4stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s6">
+						<tr>
+							<td><img src="img/lightroom.png" width="15px" style="transform: translateY(3px);">&nbsp; Adobe Lr</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s7">
+						<tr>
+							<td><img src="img/sonyvegas.png" width="15px" style="transform: translateY(3px);">&nbsp; Sony Vegas</td>
+							<td>&nbsp;<img src="img/5stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div><table class="s8">
+						<tr>
+							<td><img src="img/phpmyadmin.png" width="15px" style="transform: translateY(3px);">&nbsp; phpMyAdmin</td>
+							<td>&nbsp;<img src="img/4stars.png" width="90px"></td>
+						</tr>
+					</table></div>
+					<div class="imgf"><img src="img/white.png" width="100%"></div>
+					<div class="imgb"><img src="img/blue2.png" width="100%"></div>
+				</div>
+			</li>
+				<li>
+				<h1>INTERPERSONAL</h1>
+				<div class="container">
+					<h2>INTERPERSONAL</h2>
+					<div class="h1img"><img src="img/ints.png" width="100%"></div>
+					<div><table class="s1">
+						<tr>
+							<th><img src="img/analysis.png" width="15px" style="transform: translateY(3px);">&nbsp; Data Analysis</th>
+						</tr>
+					</table></div>
+					<div><table class="s2">
+						<tr>
+							<th><img src="img/management.png" width="15px" style="transform: translateY(3px);">&nbsp; Time Management</th>
+						</tr>
+					</table></div>
+					<div><table class="s3">
+						<tr>
+							<th><img src="img/creative.png" width="15px" style="transform: translateY(3px);">&nbsp; Creativity</th>
+						</tr>
+					</table></div>
+					<div><table class="s4">
+						<tr>
+							<th><img src="img/pressure.png" width="15px" style="transform: translateY(3px);">&nbsp; Work Under Pressure</th>
+						</tr>
+					</table></div>
+					<div><table class="s5">
+						<tr>
+							<th><img src="img/learn.png" width="15px" style="transform: translateY(3px);">&nbsp; Quick Learning</th>
+						</tr>
+					</table></div>
+					<div><table class="s6">
+						<tr>
+							<th><img src="img/teamwork.png" width="15px" style="transform: translateY(3px);">&nbsp; Teamwork</li></th>
+						</tr>
+					</table></div>
+					<div><table class="s7">
+						<tr>
+							<th><img src="img/leadership.png" width="15px" style="transform: translateY(3px);">&nbsp; Leadership</th>
+						</tr>
+					</table></div>
+					<div class="imgf"><img src="img/white.png" width="100%"></div>
+					<div class="imgb"><img src="img/blue.png" width="100%"></div>
+				</div>
+			</li>
+		</div>
+	</div>
+
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<div class="page">
+		<div class="resume">
+			<h1><b>A B D U L K R E E M &nbsp;  A L K H O L Y</b> &nbsp; R E S U M E</h1>
+
+			<div class="small">
+
+				<table>
+				<tr>
+					<td><img src="img/address.png" width="20px"></td>
+					<td>Al Wahah - Jeddah, Mecca 65578, Saudi Arabia</td>
+				</tr>
+				<tr>
+					<td><img src="img/phone.png" width="20px"></td>
+					<td>00966593077443</td>
+				</tr>
+				<tr>
+					<td><img src="img/email.png" width="20px"></td>
+					<td>3bdulkreem.kh@gmail.com</td>
+				</tr>
+				<tr>
+					<td><img src="img/website.png" width="20px"></td>
+					<td><a href="https:/www.abdulkreem.com" target="_blank" style="text-decoration: none; color: black;">Abdulkreem.com</td>
+				</tr>
+				</table>
+
+			<br>
+
+			<h2>LANGUAGES</h2>
+			<table>
+				<tr>
+					<td>Arabic &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+					<td><img src="img/5s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>English</td>
+					<td><img src="img/4s.png" width="90px"></td>
+				</tr>
+			</table>
+<br>
+			<h2>PROGRAMMING</h2>
+			<table>
+				<tr>
+					<td>HTML/CSS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+					<td><img src="img/5s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>JavaScript</td>
+					<td><img src="img/4s.png" width="90px"></td>
+
+				</tr>
+				<tr>
+					<tr>
+					<td>Java</td>
+					<td><img src="img/3s.png" width="90px"></td>
+					
+				</tr>
+				<tr>
+					<tr>
+					<td>VisualBasic</td>
+					<td><img src="img/4s.png" width="90px"></td>
+					
+				</tr>
+				<tr>
+					<tr>
+					<td>MySQL</td>
+					<td><img src="img/5s.png" width="90px"></td>
+					
+				</tr>
+				<tr>
+					<tr>
+					<td>LotusScript</td>
+					<td><img src="img/3s.png" width="90px"></td>
+					
+				</tr>
+				<tr>
+					<tr>
+					<td>Formula</td>
+					<td><img src="img/5s.png" width="90px"></td>
+					
+				</tr>
+
+			</table>
+<br>
+			<h2>SOFTWARE</h2>
+			<table>
+				<tr>
+					<td>SAP Client</td>
+					<td><img src="img/5s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>LotusNotes</td>
+					<td><img src="img/4s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>Microsoft Excel</td>
+					<td><img src="img/5s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>Microsoft Access</td>
+					<td><img src="img/5s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>Adobe Photoshop</td>
+					<td><img src="img/4s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>Adobe Lightroom</td>
+					<td><img src="img/5s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>Sony Vegas</td>
+					<td><img src="img/5s.png" width="90px"></td>
+				</tr>
+				<tr>
+					<td>phpMyAdmin</td>
+					<td><img src="img/4s.png" width="90px"></td>
+				</tr>
+			</table>
+<br>
+			<h2>INTERPERSONAL</h2>
+			<table>
+				<tr>
+					<td><li>Data Analysis</li></td>
+				</tr>
+				<tr>
+					<td><li>Time Management</li></td>
+				</tr>
+				<tr>
+					<td><li>Creativity</li></td>
+				</tr>
+				<tr>
+					<td><li>Ability to Work Under Pressure</li></td>
+				</tr>
+				<tr>
+					<td><li>Leadership</li></td>
+				</tr>
+				<tr>
+					<td><li>Teamwork</li></td>
+				</tr>
+			</table>
+
+		</div>
+			<div class="big">
+
+				<h2>ABOUT ME</h2><p>26 years old fresh graduate holding a bachelor degree in Managment Information System. Data anlysis, programming and web design and development are my fields of intrest.</p>
+				
+				<h2>EDUCATION</h2><p><span style=" font-style: italic; font-size: 15px;">-2018</span><br><span style=" font-weight: bold; color: #3E3E3E; font-size: 17px;">Yanbu University College</span><br>BSc in Management Information System</p>
+
+				<h2>EXPERIENCE</h2><p><span style=" font-style: italic; font-size: 15px;">03.2018 - 11.2018</span><br><span style=" font-style: bold; color: #3E3E3E; font-size: 17px;"><b>Zahid tractor & heavy machinery co. ltd</b></span><br>Worked as a data analyst intern for the first 3 months then as a full time employee on a programming role working on systems like SAP and LotusNotes, I worked with different programming languages there such as JavaScript, LotusScript and Formula.</p>
+
+				<h2>PROJECTS</h2>
+					<li><b style="color: #3E3E3E">Invoice generator as my graduation project</b>
+						<br>Using Visual Basic I created a software that connects to Microsoft Access Databases and manipulate the data through an interface. The software uses MySQL to search, delete or modify the records inside the Access file.</li>
+						<li><b style="color: #3E3E3E">Date convertor as my COOP training project</b>
+						<br>Visual Basic software that loads a Microsoft Excel sheet and change the date data inside the sheet then export it again in a new Microsoft Excel file.</li>
+						<li><b style="color: #3E3E3E">My Resume Website <a href="https:/www.abdulkreem.com" target="_blank" style="text-decoration: none; color: #3E3E3E; text-decoration: underline;">Abdulkreem.com</a></b>
+						<br>A full codded website made by me using HTML, CSS and JavaScript without the use of any templets or tools. (this resume was made with HTML/CSS)</li>
+
+				<h2>REFERENCES</h2>
+				<p><b style="color: #3E3E3E">Mr.Khaled Al-Massar</b>
+					<br>Lecturer & Head of Student Support Services Unit Yanbu
+					<br>University College
+					<br>Phone: 00966506038200
+					<br>Email: massark@rcyci.edu.sa</p>
+				<p><b style="color: #3E3E3E">Mousa Alhalami</b>
+					<br>Programmer / Data Analytic Development team leader
+					<br>Zahid tractor IT, Jeddah
+					<br>Phone: 00966567112138</p>
+			</div>
+			<h6>For more detailed resume, visit my website @ <a href="https:/www.abdulkreem.com" target="_blank" style="text-decoration: none; color: white; text-decoration: underline;">Abdulkreem.com</a></h6>
+		</div>
+		<a href="files/Abdulkreem_Kh_Resume.pdf" targer="_blank" download="Abdulkreem_Kh_Resume"  style="text-decoration: none;"><div class="download"><img src="img/download.png" width="14px"> DOWNLOAD RESUME</div></a> 
+	</div>
+
+	<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+	<div class="page">
+		<div class="contact">
+			
+			<div class="send">
+				
+				<h4>CONTACT ME<b style="color:#ff7875">.</b></h4>
+				<div class="msgg">
+					<form id="contactform" autocomplete="off" onsubmit="submitForm(); return false;">
+						<input type="text" name="FirstName" id="fn" placeholder="Employer or First Name*" autocomplete="off" required>
+						<input type="email" name="Email" id="em" placeholder="Email Address*" autocomplete="off" required>
+						<textarea placeholder="Please tell me more about your message here!" id="ms" autocomplete="off" style="height:60px" required></textarea>
+						<p id="greenbg"><input id="mysub" type="submit" value="Send" /><span id="status"></span></p>
+					</form>
+				</div>
+
+				<script>
+					function submitForm(){
+						document.getElementById("mysub").disabled = true;
+						document.getElementById("mysub").value = 'Sending ...';
+						var formdata = new FormData();
+						formdata.append( "fn", document.getElementById("fn").value );
+						formdata.append( "em", document.getElementById("em").value );
+						formdata.append( "ms", document.getElementById("ms").value );
+						var ajax = new XMLHttpRequest();
+						ajax.open( "POST", "php/contactphp.php" );
+						ajax.onreadystatechange = function() {
+							if(ajax.readyState == 4 && ajax.status == 200) {
+								if(ajax.responseText == "success"){
+									document.getElementById("greenbg").innerHTML = '<h5 style="color:#7ABE6D; padding: 3px 5px; width:185px; max-height: 50px; overflow: hidden; transform:translateY(-15px); font-size:8px;">Thank you '+document.getElementById("fn").value+', Your message has been sent!</h5>'
+									document.getElementById("fn").disabled = true ;
+									document.getElementById("em").disabled = true ;
+									document.getElementById("ms").disabled = true ;
+								} else {
+									document.getElementById("mysub").value = 'Failed to send!';
+								}
+							}
+						}
+						ajax.send( formdata );
+					}
+				</script>
+
+			</div>
+
+			<!-- This website is made by Abdulkreem Alkholy. Visit Abdulkreem.com for more details. -->
+			<div class="find">
+				
+				<div>
+					<h4>FIND ME<b style="color:#ff7875">.</b></h4>
+
+					<h5>Contact Information</h5>
+					<div class="contacti">
+					<a href="#a"><img src="img/phone.png" width="10"> &nbsp;  00966593077443</a>
+					<br><a ><img src="img/email.png" width="10"> &nbsp;  3bdulkreem.kh@gmail.com</a>
+					<br><a href="https://join.skype.com/fp9clhdznj60" target="_blank"><img src="img/skype.png" width="10"> &nbsp;  skype @ 3bdulkreem.kh</a>
+					<br><a href="https:/www.abdulkreem.com" target="_blank"><img src="img/website.png" width="10"> &nbsp; Abdulkreem.com</a>
+					</div>
+				</div>
+
+				<div class="socialm">
+					&nbsp; <a href="https:/www.linkedin.com/in/abdulkreem-alkholy-352a9a162" target="_blank"><img src="img/inc.png" width="10px">&nbsp;</a>
+					<a href="https://twitter.com/AbdulkreemKh" target="_blank"><img src="img/twitterc.png" width="10px">&nbsp;</a>
+					<a href="https://instagram.com/savakslava?utm_source=ig_profile_share&igshid=19m5j7vergwjf" target="_blank"><img src="img/instagramc.png" width="10px">&nbsp;</a>
+					<a href="https://www.youtube.com/channel/UCC96m3of2fvI2CATG1r5-xA" target="_blank"><img src="img/youtubec.png" width="10px">&nbsp;</a>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div></div>
+	</div>
+
+	<div class="footer">Made by Abdulkreem Abdulhady Alkholy ©2019. All rights reserved.</div>
+</body>
+
+</xmp>
+
+</body>
+
+</html>
